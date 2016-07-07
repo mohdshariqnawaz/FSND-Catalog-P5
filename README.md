@@ -11,13 +11,13 @@ You will develop an application that provides a list of items within a variety o
 * Clone the repo using `git clone https://github.com/sharynneazhar/FSND-Catalog-P5.git`
 
 ###### Secret Keys
-You need to obtain your own secret keys from [Google API](https://console.developers.google.com/) and [Facebook Developer](https://developers.facebook.com/). A guide to obtaining a Google client ID can be viewed [here](https://www.youtube.com/watch?v=8aGoty0VXgw). Once you register the app, you will be able to download the client secret JSON files required for the project. You may save the files under `/fs-nanodegree/P5-Restaurant-Menu/`. (Note: Udacity reviewers will be provided the necessary client IDs and secret keys under project submission notes)
+You need to obtain your own secret keys from [Google API](https://console.developers.google.com/) and [Facebook Developer](https://developers.facebook.com/). A guide to obtaining a Google client ID can be viewed [here](https://www.youtube.com/watch?v=8aGoty0VXgw). Once you register the app, you will be able to download the client secret JSON files required for the project. (Note: Udacity reviewers will be provided the necessary client IDs and secret keys under project submission notes)
 
 ###### Run the Project
 * Run the virtual environment
-  * `cd /path/to/fs-nanodegree` into the repo
+  * `cd /path/to/FSND-Catalog-P5` into the repo
   * `vagrant up && vagrant ssh` to the Vagrant VM
-  * `cd /vagrant/P5-Restaurant-Menu` into the project directory
+  * `cd /vagrant/FSND-Catalog-P5` into the project directory
 * Project Setup
   * `python models.py` to create the database
   * `python restaurantData.py` to fill in the database with mock data
